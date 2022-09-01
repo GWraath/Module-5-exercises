@@ -4,7 +4,7 @@ swaggerDocument = require('./swagger.json');
 
 const express = require('express')
 //const testRoute = require('./routes/myTestRoute')
-const calculatorRoute = require('./routes/calculatorRoute')
+const calculatorRoute = require('./app/routes/calculatorRoute')
 // const router = express.Router();
 const app = express()
 // const app = swaggerUi
