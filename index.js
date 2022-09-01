@@ -14,25 +14,8 @@ app.use('/api-docs',
     swaggerUi.setup(swaggerDocument)
 );
 app.use('/calculatorRoute', calculatorRoute) //http://localhost:3000/calculatorRoute/
-// router.get('/test', (req, res) => {
-//     res.send('Hello World!') //sends the string Hello World! to the browser screen
-//     })
-
-// router.get('/test2', (req, res) => { //sends the string Second test to the browser screen
-//     res.send('Second test')
-//     })
-
-// module.exports = router
-
-// const express1 = require('express')
-// const app1 = express1()
-//const port1 = 8080
 
 
-// app.get('/', (req, res) => {
-// res.send('Hello World 3000!')
-// })
-//let server = express()
 
 app.use('/', express.static('public')) //where the server will be hosted on
 // server.use('/static', express.static('public'))
